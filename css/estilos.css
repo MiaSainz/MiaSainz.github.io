@@ -1,0 +1,199 @@
+body
+{
+	max-width: 1024px;
+	font-family: arial;
+	background: #232323;
+	color: white;
+	margin: 0 auto;
+
+}
+header
+{
+	/* background-image: url("http://localhost/pagproyectos/img/brillos.jpg"); */
+
+	text-align: center;
+	background: #3BB2C2;
+
+
+}
+header img
+{
+	max-width: 1024px;
+	
+
+}
+header ul li
+{
+
+	border-radius: 5px; 
+	color: white;
+	display: inline-block;
+	margin: 0px 10px 0px 0px;
+	padding: 0px 10px;
+}
+
+section article
+{
+
+	display: inline-block;
+	margin-left: 80px;
+	margin-bottom: 40px;
+	vertical-align: top; /*texttop*/
+	width: 40%;/* // PONER PORCENTAJES */
+
+}
+footer
+{
+	font-size: 1.5em;
+	background: #3BB2C2;
+
+}
+footer section article
+{
+
+	color: white;
+	margin-top: 40px;
+	width: 40%;
+}
+
+#nombre
+{
+	float: left;
+	margin-top: 20px;
+	margin-left: 10px; 
+	/*width: 250px;*/
+	width: 80%;
+}
+#foto
+{
+	float: right;
+	margin-right: 70px;
+	margin-top: 20px;
+	/*width: 300px;*/
+	width: 80%;
+}
+#menuCelular
+{
+	display: none;
+}
+#proyectos
+{
+	background: pink;
+	 display: none; 
+}
+#proyectos article
+{
+	font-size: 1.5em;
+	margin-left: 20px;
+	text-align: center;
+	width: 40%;/* // PONER PORCENTAJES */
+
+}
+
+#proyectos img
+{
+	/*width: 300px;*/
+	width: 60%;
+}
+#btnDatos
+{
+	display: none;
+}
+.letras
+{
+	color: hotpink;
+	font-size: 1.5em;
+}
+.letrasAzul
+{
+	color: #3BB2C2;
+	font-size: 1.5em;
+}
+
+/*
+//MANUAL
+Media Queries*/
+
+@media screen and (min-width: 320px) and (max-width: 640px){
+	body
+	{
+		text-align: center;
+		width: 100%;
+		/*font-size: 1.5em;*/
+
+	}
+	header
+	{
+		font-size: 0.5em;
+		width: 100%;
+	}
+	header #muchasFotos
+	{
+		display: none;
+	}
+	header nav ul li
+	{
+		display: none;
+	}
+	section article
+	{
+		display: block;
+		width: 100%;
+	}
+	#datos #texto
+	{
+		margin-top: 20px;
+		display: block;
+
+	}
+	#proyectos #texto
+	{
+		margin-top: 10px;
+		display: block;
+
+	}
+	#proyectos img
+	{
+		display: block;
+		width: 100%;
+	}
+	/*MIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA*/
+	/*#proyectos article
+	{
+		display: block;
+		width: 100%;
+	}
+	#datos article
+	{
+		display: block;
+		width: 100%;
+	}
+	#proyectos
+	{
+		display: block;
+		width: 100%;
+	}*/
+	#menuCelular
+	{
+
+		display: block;
+		font-size: 2em;
+
+		width: 100%;
+	} 
+	
+	#nombre
+	{
+		display: block;
+		margin-left: -70px;
+		width: 100%;
+	}
+	#foto
+	{
+		display: block;
+
+		width: 100%;
+	}
+	
+}
+
